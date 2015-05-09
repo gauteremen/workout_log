@@ -1,11 +1,16 @@
 #workout
-	%p= @workout.date
-	%p= @workout.workout
-	%p= @workout.mood
+	%h4= @workout.date.strftime("%A %d %B")
+	#exercise_text Worked out: 
+	= @workout.workout
+	%br/
+	#exercise_text Felt:
+	= @workout.mood
+	%br/
+	#exercise_text Duration:
 	%p= @workout.length
 
 #exercises
-	%h2 Exercises
+	%h3 Exercises
 	= render @workout.exercises
 
 	%h3 Add an exercise
@@ -14,3 +19,8 @@
 	= link_to "Back", root_path 
 	= link_to "Edit", edit_workout_path(@workout)
 	= link_to "Delete", workout_path(@workout), method: :delete, data: {confirm: "Are you sure?"}
+	%br/
+	%br/
+	%br/
+	%br/
+	%br/
