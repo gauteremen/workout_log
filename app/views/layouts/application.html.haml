@@ -6,12 +6,19 @@
 	= javascript_include_tag 'application', 'data-turbolinks-track' => true
 	= csrf_meta_tags
 %body
-	%nav.navbar.navbar-default
+	%nav.navbar.navbar-default 
 		.container
 			.navbar-header
 				=link_to "Workout Log", root_path, class: "navbar-brand"
 			.nav.navbar-nav.navbar-right
-				= link_to "New Workout", new_workout_path, class: "navbar navbar-link"
+				= link_to "New Workout", new_workout_path, class: "navbar-link"
 
 	.container
+	%nav.navbar.navbar-default.navbar-fixed-bottom
+		.container
+			.nav.navbar-nav.navbar-right
+				= link_to "Gaute Gjerløw Remen, 2015", "mailto:gaute.remen@gmail.com", class: "navbar-link"
+
+	.container
+
 		= yield
