@@ -14,9 +14,10 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'haml', '~> 4.0.6'
-  gem 'simple_form', '~> 3.1.0'
+  gem 'simple_form'
   gem 'bootstrap-sass', '~> 3.3.4.1'
   gem 'rails_bootstrap_navbar'
+  gem 'rdoc'
 
 end
 
