@@ -11,3 +11,5 @@ be more aware of this problem.
 The application is made in Ruby on Rails, and uses simple_form, bootstrap and some other interesting gems. This is my
 second app in Ruby on Rails, and I am pretty proud of it.
 
+More documentation is found doc/app/index.html
+Also, screencaps of the app can be found at doc/app/image_captures
