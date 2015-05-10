@@ -1,28 +1,25 @@
+<p><a href="README_rdoc.html">README</a> for the Workout Log app</p>
+
+Ruby version: 2.2.0
+
+<p>This application gives you the opportunity to log workouts done, including exercises involved in the workout.
+As of now, the only way to run the application is to download the source code and run it locally on the computer. 
+This is because I forgot to run <code>rails new -d postgresql</code> before I created the app, resulting in that I was not
+able to deploy it to Heroku. I've tried to fix the database and migrations, but still won't deploy. Next time I will
+be more aware of this problem.</p>
+<p>The application is made in Ruby on Rails, and uses simple_form, bootstrap and some other interesting gems. This is my
+second app in Ruby on Rails, and I am pretty proud of it.</p>
+
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+README for the Workout Log
 
-Things you may want to cover:
+This application gives you the opportunity to log workouts done, including exercises involved in the workout.
+As of now, the only way to run the application is to download the source code and run it locally on the computer. 
+This is because I forgot to run <tt>rails new -d postgresql</tt> before I created the app, resulting in that I was not
+able to deploy it to Heroku. I've tried to fix the database and migrations, but still won't deploy. Next time I will
+be more aware of this problem.
 
-* Ruby version
+The application is made in Ruby on Rails, and uses simple_form, bootstrap and some other interesting gems. This is my
+second app in Ruby on Rails, and I am pretty proud of it.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
